@@ -1,0 +1,27 @@
+/* .page-enter-active, .page-leave-active {
+    transition: .5s;
+    opacity: 1;
+    transform: translateX(0);
+}
+.page-leave-active {
+    transform: translateX(-30%);
+    opacity: .5;
+}
+.page-enter {
+    transition: .5s;
+    transform: translateX(30%);
+    opacity: 0;
+} */
+
+body {
+  word-break: break-word;
+  background-color: #fafafa;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.hover-underline:hover {
+  text-decoration: underline;
+}
